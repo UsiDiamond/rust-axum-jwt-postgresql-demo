@@ -2,7 +2,21 @@
 
 A demo API for a presentation on Rust/Axum Architecture and for the enterprise.
 
-## Quick instructions
+## Run example with Doocker
+
+### Build a Docker image
+
+```bash
+docker build -t rust-axum-jwt-postgresql-demo .
+```
+
+### Run a Docker container
+
+```bash
+docker run -p 3000:3000 rust-axum-jwt-postgresql-demo
+```
+
+### Trying it out
 
 - get an authorization token:
 
@@ -32,4 +46,18 @@ curl -s \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer blahblahblah' \
     http:localhost:3000/protected
+```
+
+## Developer Notes
+
+### Build locally on Windows by command line
+
+```powershell
+cargo build --target=i686-pc-windows-msvc
+```
+
+### Run on Windows by command line
+
+```powershell
+cargo run --target=i686-pc-windows-msvc
 ```
