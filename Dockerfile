@@ -2,15 +2,19 @@
 FROM rust:latest
 
 # Set the working directory in the container to /my
-WORKDIR /usr/src/rust-rocket-postgresql-demo
+WORKDIR /usr/src/rust-axum-postgresql-demo
 
 # Copy the Rust project files to the working directory
-COPY . .
+COPY ./src src
+COPY Cargo.toml .
+COPY Cargo.lock .
 
 # Build the Rust app
-RUN  rustup override set nightly && cargo build
+RUN  cargo build
 
-EXPOSE 9090
+ARG JWT_SECRET
+
+EXPOSE 3000
 
 # Set the command to run the Rust app
 CMD cargo run
