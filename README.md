@@ -1,4 +1,4 @@
-# rust-axum-jwt-postgresql-demo [![Unit Tests](https://github.com/UsiDiamond/rust-axum-jwt-postgresql-demo/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/UsiDiamond/rust-axum-jwt-postgresql-demo/actions/workflows/rust.yml)
+# rust-axum-jwt-postgresql-demo [![Unit Tests](https://github.com/UsiDiamond/rust-axum-jwt-postgresql-demo/actions/workflows/rust.yml/badge.svg)](https://github.com/UsiDiamond/rust-axum-jwt-postgresql-demo/actions/workflows/rust.yml)
 
 A demo API for a presentation on Rust/Axum Architecture and for the enterprise.
 
