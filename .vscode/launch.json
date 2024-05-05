@@ -5,7 +5,7 @@
       "name": "(Windows) Launch",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceRoot}/target/i686-pc-windows-msvc/debug/rust-axum-postgresql-demo.exe",
+      "program": "${workspaceRoot}/target/i686-pc-windows-msvc/debug/rust-axum-jwt-postgresql-demo.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

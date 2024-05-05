@@ -1,3 +1,3 @@
-# rust-axum-postgresql-demo
+# rust-axum-jwt-postgresql-demo
 
 A demo API for a presentation on Rust/Axum Architecture and for the enterprise.

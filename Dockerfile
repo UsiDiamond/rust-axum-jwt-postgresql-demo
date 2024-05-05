@@ -2,7 +2,7 @@
 FROM rust:latest
 
 # Set the working directory in the container to /my
-WORKDIR /usr/src/rust-axum-postgresql-demo
+WORKDIR /usr/src/rust-axum-jwt-postgresql-demo
 
 # Copy the Rust project files to the working directory
 COPY ./src src
