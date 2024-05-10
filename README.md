@@ -13,7 +13,7 @@ docker build -t rust-axum-jwt-postgresql-demo .
 ### Run a Docker container
 
 ```bash
-docker run -p 3000:3000 rust-axum-jwt-postgresql-demo
+docker run -p 3000:3000 rust-axum-jwt-postgresql-demo -e JWT_SECRET=bar
 ```
 
 ### Trying it out
